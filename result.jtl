@@ -1,0 +1,14 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1768401120054,2879,Validate,200,OK,Thread Group 1-1,text,true,,4820,1412,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,2172,0,1418
+1768401120054,2189,Validate-0,302,Found,Thread Group 1-1,text,true,,969,779,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/validate,2172,0,1418
+1768401122247,686,Validate-1,200,OK,Thread Group 1-1,text,true,,3851,633,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,686,0,0
+1768401139193,1235,view,200,OK,Thread Group 1-1,text,true,,4579,1191,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,617,0,0
+1768401139193,617,view-0,302,Found,Thread Group 1-1,text,true,,861,607,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule,617,0,0
+1768401139811,617,view-1,200,OK,Thread Group 1-1,text,true,,3718,584,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,617,0,0
+1768401143500,1271,TimeModule,200,OK,Thread Group 1-1,text,true,,4601,1177,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,664,0,0
+1768401143500,664,TimeModule-0,302,Found,Thread Group 1-1,text,true,,861,593,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule,664,0,0
+1768401144164,607,TimeModule-1,200,OK,Thread Group 1-1,text,true,,3740,584,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,606,0,0
+1768401149976,1216,logout,200,OK,Thread Group 1-1,text,true,,4585,1169,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,566,0,0
+1768401149976,566,logout-0,302,Found,Thread Group 1-1,text,true,,861,585,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/logout,566,0,0
+1768401150542,650,logout-1,200,OK,Thread Group 1-1,text,true,,3724,584,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,650,0,0
+1768401119928,6601,Test,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-1,,true,,18585,4949,1,1,null,4019,24665,1418
